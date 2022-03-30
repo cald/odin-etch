@@ -1,9 +1,16 @@
 #container {
     display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 4px;
 }
 
 .square {
-    height: 100px;
-    width: 100px;
-    border: dashed red;
+    aspect-ratio: 1;
+    border: solid red;
+    transition: background-color 1s;
+}
+
+.square:hover {
+    background-color: gray;
+    transition: background-color 0s;
 }
