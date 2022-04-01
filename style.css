@@ -10,7 +10,7 @@ body {
 
 #container {
     display: grid;
-    width: 90vh;
+    width: 950px;
 }
 
 .square {
