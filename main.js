@@ -5,3 +5,5 @@ for (let i = 0; i < 16*16; i++) {
     square.classList.add("square");
     container.appendChild(square);
 }
+
+const button = document.getElementById("reset");

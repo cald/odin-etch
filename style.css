@@ -1,3 +1,9 @@
+#header {
+    display: grid;
+    margin: 8px;
+    justify-content: center;
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -6,11 +12,11 @@
 
 .square {
     aspect-ratio: 1;
-    border: solid red;
-    transition: background-color 1s;
+    border: solid black;
+    transition: background-color 100s;
 }
 
 .square:hover {
     background-color: gray;
-    transition: background-color 0s;
+    transition: background-color .1s;
 }
