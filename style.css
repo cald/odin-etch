@@ -10,17 +10,16 @@ body {
 
 #container {
     display: grid;
-    gap: 1px;
     width: 90vh;
 }
 
 .square {
     aspect-ratio: 1;
-    border: thin solid black;
+    border: thin solid gray;
     transition: background-color 100s;
 }
 
 .square:hover {
     background-color: black;
-    transition: background-color .1s;
+    transition: background-color 0s;
 }
