@@ -1,12 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #header {
-    display: grid;
     margin: 8px;
-    justify-content: center;
 }
 
 #container {
     display: grid;
     gap: 1px;
+    width: 90vh;
 }
 
 .square {
